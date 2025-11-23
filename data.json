@@ -1,0 +1,636 @@
+[
+    {
+      "name": "Magnavox Odyssey",
+      "generation": "1st",
+      "bits": "N/A (Discrete Components)",
+      "manufacturer": "Magnavox",
+      "country_of_origin": "United States",
+      "production_years": { "start": 1972, "end": 1975 },
+      "hardware_data": {
+        "processor": "Proprietary discrete component circuitry",
+        "resolution": "Black & White (with screen overlays)",
+        "media": "Proprietary circuit cards"
+      },
+      "units_sold_global": "350,000",
+      "release_price_usd": 100,
+      "released_games_count": 12,
+      "game_list_file": "games_list/magnavox_odyssey.json",
+      "notes": "The first commercial home video game console.",
+      "fun_facts": ["Used plastic screen overlays to simulate color and backgrounds."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+      "image_tag": "images/magnavox_odyssey.png"
+    },
+    {
+      "name": "Atari 2600 (VCS)",
+      "generation": "2nd",
+      "bits": "8-bit",
+      "manufacturer": "Atari, Inc.",
+      "country_of_origin": "United States",
+      "production_years": { "start": 1977, "end": 1992 },
+      "hardware_data": {
+        "processor": "MOS Technology 6507 @ 1.19 MHz",
+        "resolution": "160x192",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "30 Million",
+      "release_price_usd": 199,
+      "released_games_count": "~550",
+      "game_list_file": "games_list/atari_2600.json",
+      "notes": "Popularized the cartridge format. The official Brazilian version was manufactured by **Polyvox**, and many clones existed, like the **CCE Supergame**.",
+      "fun_facts": ["The console's success led to the North American video game crash of 1983."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Atari_2600",
+      "image_tag": "images/atari_vcs.png"
+    },
+    {
+      "name": "Nintendo Entertainment System (NES)",
+      "generation": "3rd",
+      "bits": "8-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1983, "end": 2003 },
+      "hardware_data": {
+        "processor": "Ricoh 2A03 @ 1.79 MHz",
+        "resolution": "256x240",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "61.91 Million",
+      "release_price_usd": 199.99,
+      "released_games_count": "~715 (NA)",
+      "game_list_file": "games_list/nes.json",
+      "notes": "Revived the console market after the 1983 crash. Officially sold in Brazil by **Playtronic** (a Gradiente/Estrela joint venture).",
+      "fun_facts": ["The US version had a ZIF (Zero Insertion Force) front-loading slot."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+      "image_tag": "images/nes.png"
+    },
+    {
+      "name": "Gradiente Phantom System",
+      "generation": "3rd (NES Clone)",
+      "bits": "8-bit",
+      "manufacturer": "Gradiente",
+      "country_of_origin": "Brazil",
+      "production_years": { "start": 1989, "end": 1993 },
+      "hardware_data": {
+        "processor": "Famicom-compatible clone processor",
+        "resolution": "256x240",
+        "media": "Cartridge (72-pin NES/60-pin Famicom slots)"
+      },
+      "units_sold_global": "Unknown (High for local market)",
+      "release_price_usd": "N/A (Local currency)",
+      "released_games_count": "Utilized NES/Famicom library",
+      "notes": "The most famous and technically sophisticated Brazilian NES clone, preceding the official console's arrival.",
+      "fun_facts": ["The shell design mimicked the Sega Genesis, its competitor at the time."],
+      "wikipedia_link": "https://pt.wikipedia.org/wiki/Phantom_System",
+      "image_tag": "images/phantom_system.png"
+    },
+    {
+      "name": "Sega Master System",
+      "generation": "3rd",
+      "bits": "8-bit",
+      "manufacturer": "Sega",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1985, "end": "Active (Brazil)" },
+      "hardware_data": {
+        "processor": "Zilog Z80 @ 4 MHz",
+        "resolution": "256x192",
+        "media": "Cartridge (ROM) / Sega Card"
+      },
+      "units_sold_global": "13 Million (Global) / ~8 Million (Brazil only)",
+      "release_price_usd": 199.99,
+      "released_games_count": "~360",
+      "game_list_file": "games_list/master_system.json",
+      "notes": "Achieved market dominance in Brazil thanks to the official license and local assembly by **Tectoy**, where variants are still sold.",
+      "fun_facts": ["Tectoy created Brazilian-exclusive games and localizations, like 'Mônica no Castelo do Dragão'."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Master_System",
+      "image_tag": "images/master_system.png"
+    },
+    {
+      "name": "Game Boy",
+      "generation": "4th (Handheld)",
+      "bits": "8-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1989, "end": 2003 },
+      "hardware_data": {
+        "processor": "Sharp LR35902 (Custom Z80) @ 4.19 MHz",
+        "screen": "Reflective STN LCD, 160x144 resolution, 4 shades of gray",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "118.69 Million (w/ Color)",
+      "release_price_usd": 89.99,
+      "released_games_count": "~1,000",
+      "game_list_file": "games_list/gb.json",
+      "notes": "The most successful handheld of its generation, launching with *Tetris*. Released in Brazil by **Playtronic**.",
+      "fun_facts": ["Its durable design and long battery life were key factors in its success."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Game_Boy",
+      "image_tag": "images/game_boy.png"
+    },
+    {
+      "name": "Sega Game Gear",
+      "generation": "4th (Handheld)",
+      "bits": "8-bit",
+      "manufacturer": "Sega",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1990, "end": 1997 },
+      "hardware_data": {
+        "processor": "Zilog Z80 @ 3.58 MHz",
+        "screen": "Backlit Color LCD, 160x144 resolution, 32 colors on-screen",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "10.62 Million",
+      "release_price_usd": 149.99,
+      "released_games_count": "~300",
+      "notes": "Sega's answer to the Game Boy, known for its color screen but high power consumption. Assembled by **Tectoy** in Brazil.",
+      "fun_facts": ["Could be converted into a portable television using a Tuner accessory."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Game_Gear",
+      "image_tag": "images/game_gear.png"
+    },
+    {
+      "name": "Sega Genesis (Mega Drive)",
+      "generation": "4th",
+      "bits": "16-bit",
+      "manufacturer": "Sega",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1988, "end": "Active (Brazil)" },
+      "hardware_data": {
+        "processor": "Motorola 68000 @ 7.6 MHz (main)",
+        "resolution": "320x224",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "30.75 Million",
+      "release_price_usd": 189.99,
+      "released_games_count": "~915",
+      "game_list_file": "games_list/genesis.json",
+      "notes": "The '16-bit console war' champion in the Americas. **Tectoy** continues to produce and sell licensed plug-and-play variants in Brazil.",
+      "fun_facts": ["Tectoy also created a Mega Drive handheld system."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Sega_Genesis",
+      "image_tag": "images/sega_genesis.png"
+    },
+    {
+      "name": "Super Nintendo Entertainment System (SNES)",
+      "generation": "4th",
+      "bits": "16-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1990, "end": 1999 },
+      "hardware_data": {
+        "processor": "Ricoh 5A22 @ 3.58 MHz",
+        "resolution": "256x224 to 512x448",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "49.1 Million",
+      "release_price_usd": 199.99,
+      "released_games_count": "~1,750",
+      "game_list_file": "games_list/snes.json",
+      "notes": "Known for advanced graphics capabilities like Mode 7 and reliance on co-processors within cartridges. Officially sold by **Playtronic** in Brazil.",
+      "fun_facts": ["The North American design was significantly bulkier than the Japanese/European version."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+      "image_tag": "images/snes.png"
+    },
+    {
+      "name": "PlayStation (PS1)",
+      "generation": "5th",
+      "bits": "32-bit",
+      "manufacturer": "Sony Computer Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1994, "end": 2006 },
+      "hardware_data": {
+        "processor": "MIPS R3000 @ 33.86 MHz",
+        "main_ram": "2 MB",
+        "media": "CD-ROM (Double Speed)"
+      },
+      "units_sold_global": "102.49 Million",
+      "release_price_usd": 299,
+      "released_games_count": "~3,000",
+      "game_list_file": "games_list/ps1.json",
+      "notes": "Popularized CD-ROM gaming, leading the shift away from cartridges.",
+      "fun_facts": ["The console was originally meant to be a CD-ROM add-on for the SNES."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+      "image_tag": "images/playstation.png"
+    },
+    {
+      "name": "Nintendo 64 (N64)",
+      "generation": "5th",
+      "bits": "64-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1996, "end": 2002 },
+      "hardware_data": {
+        "processor": "NEC VR4300 (MIPS R4300i core) @ 93.75 MHz",
+        "main_ram": "4 MB RDRAM",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "32.93 Million",
+      "release_price_usd": 199.99,
+      "released_games_count": "~387",
+      "game_list_file": "games_list/n64.json",
+      "notes": "The last major home console to use cartridges. Pioneered the analog stick for 3D control. Distributed by **Gradiente** in Brazil.",
+      "fun_facts": ["The unique controller design was often referred to as a 'three-pronged fork'."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Nintendo_64",
+      "image_tag": "images/nintendo_64.png"
+    },
+    {
+      "name": "Bandai WonderSwan (Color)",
+      "generation": "5th (Handheld)",
+      "bits": "16-bit (Main)",
+      "manufacturer": "Bandai",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1999, "end": 2003 },
+      "hardware_data": {
+        "processor": "NEC V30 MZ @ 3.072 MHz",
+        "screen": "LCD, 224x144 resolution",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "3.5 Million",
+      "release_price_usd": "N/A (Local currency, approx. $60)",
+      "released_games_count": "~200",
+      "notes": "Created by Gunpei Yokoi (creator of the Game Boy) after he left Nintendo. Could be played in both portrait and landscape modes.",
+      "fun_facts": ["The original monochrome version was succeeded by the **WonderSwan Color** and **SwanCrystal**."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/WonderSwan",
+      "image_tag": "images/wonderswan.png"
+    },
+    {
+      "name": "PlayStation 2 (PS2)",
+      "generation": "6th",
+      "bits": "128-bit (Architecture)",
+      "manufacturer": "Sony Computer Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2000, "end": 2013 },
+      "hardware_data": {
+        "processor": "Emotion Engine @ 299 MHz",
+        "graphics_chip": "Graphics Synthesizer @ 147 MHz",
+        "media": "DVD-ROM, CD-ROM"
+      },
+      "units_sold_global": "155 Million",
+      "release_price_usd": 299,
+      "released_games_count": "3,874",
+      "game_list_file": "games_list/ps2.json",
+      "notes": "The best-selling console of all time. Its long lifespan and local assembly (especially of the Slim model) made it widely popular in Brazil.",
+      "fun_facts": ["The PS2's launch was a major factor in the widespread adoption of the DVD format."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_2",
+      "image_tag": "images/ps2.png"
+    },
+    {
+      "name": "Game Boy Advance (GBA)",
+      "generation": "6th (Handheld)",
+      "bits": "32-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2001, "end": 2010 },
+      "hardware_data": {
+        "processor": "ARM7TDMI @ 16.8 MHz",
+        "screen": "TFT LCD, 240x160 resolution, 512 colors on-screen",
+        "media": "Cartridge (ROM)"
+      },
+      "units_sold_global": "81.51 Million",
+      "release_price_usd": 99.99,
+      "released_games_count": "~1,500",
+      "notes": "Introduced the horizontal orientation for Nintendo handhelds and maintained backward compatibility with the original Game Boy/Color games.",
+      "fun_facts": ["The original model's screen lacked backlighting, fixed in later revisions (GBA SP)."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+      "image_tag": "images/gba.png"
+    },
+    {
+      "name": "Zeebo",
+      "generation": "7th (Emerging Markets)",
+      "bits": "32-bit (ARM11)",
+      "manufacturer": "Zeebo Inc. (Tectoy in Brazil)",
+      "country_of_origin": "United States / Brazil",
+      "production_years": { "start": 2009, "end": 2011 },
+      "hardware_data": {
+        "processor": "Qualcomm MSM7201A @ 528 MHz",
+        "main_ram": "160 MB (combined)",
+        "media": "Digital download only via 3G network"
+      },
+      "units_sold_global": "Unknown (Low)",
+      "release_price_usd": 199,
+      "released_games_count": "~60",
+      "notes": "Unique console developed for emerging markets like Brazil. Used 3G cellular technology for game downloads instead of physical media, mitigating import taxes.",
+      "fun_facts": ["Despite its failure, it was Tectoy's last major attempt at original console hardware."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Zeebo",
+      "image_tag": "images/zeebo.png"
+    },
+    {
+      "name": "Nintendo Switch",
+      "generation": "8th/9th (Hybrid)",
+      "bits": "ARM (Custom Nvidia Tegra)",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2017, "end": "Active" },
+      "hardware_data": {
+        "processor": "Nvidia Tegra X1+ (Custom)",
+        "main_ram": "4 GB LPDDR4",
+        "media": "Game Card (Proprietary Cartridge) / Digital Download"
+      },
+      "units_sold_global": "150 Million+",
+      "release_price_usd": 299.99,
+      "released_games_count": "7,900+",
+      "notes": "A highly successful hybrid device, acting as both a home console and a dedicated handheld. Nintendo officially re-entered the Brazilian market with this console.",
+      "fun_facts": ["The console's ability to seamlessly switch between TV and handheld modes was its defining feature."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+      "image_tag": "images/nintendo_switch.png"
+    },
+    {
+      "name": "Sega Saturn",
+      "generation": "5th",
+      "bits": "32-bit",
+      "manufacturer": "Sega",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1994, "end": 2000 },
+      "hardware_data": {
+        "processor": "Dual Hitachi SH-2 @ 28.6 MHz",
+        "main_ram": "2 MB",
+        "media": "CD-ROM"
+      },
+      "units_sold_global": "9.26 Million",
+      "release_price_usd": 399,
+      "released_games_count": "~1,000",
+      "game_list_file": "games_list/saturn.json",
+      "notes": "Known for its complex dual-CPU architecture which made development difficult. It was very popular for 2D arcade ports.",
+      "fun_facts": ["Its surprise US launch was four months earlier than planned, which alienated retailers and hurt its success."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Sega_Saturn",
+      "image_tag": "images/sega_saturn.png"
+    },
+    {
+      "name": "Sega Dreamcast",
+      "generation": "6th",
+      "bits": "128-bit (Marketing)",
+      "manufacturer": "Sega",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 1998, "end": 2001 },
+      "hardware_data": {
+        "processor": "Hitachi SH-4 @ 200 MHz",
+        "graphics_chip": "PowerVR2",
+        "media": "GD-ROM"
+      },
+      "units_sold_global": "9.13 Million",
+      "release_price_usd": 199,
+      "released_games_count": "~600",
+      "game_list_file": "games_list/dreamcast.json",
+      "notes": "The first console with a built-in modem for online play. It was Sega's final home console.",
+      "fun_facts": ["The VMU (Visual Memory Unit) was a memory card with its own LCD screen that could be used for mini-games."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Dreamcast",
+      "image_tag": "images/dreamcast.png"
+    },
+    {
+      "name": "Nintendo GameCube",
+      "generation": "6th",
+      "bits": "32-bit/64-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2001, "end": 2007 },
+      "hardware_data": {
+        "processor": "IBM 'Gekko' PowerPC @ 486 MHz",
+        "graphics_chip": "ATI 'Flipper'",
+        "media": "Nintendo GameCube Game Disc (MiniDVD)"
+      },
+      "units_sold_global": "21.74 Million",
+      "release_price_usd": 199,
+      "released_games_count": "~650",
+      "notes": "Nintendo's first console to use optical discs. Known for its compact design and carrying handle.",
+      "fun_facts": ["The Game Boy Player accessory allowed it to play Game Boy, GBC, and GBA games on the TV."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/GameCube",
+      "image_tag": "images/gamecube.png"
+    },
+    {
+      "name": "Xbox",
+      "generation": "6th",
+      "bits": "32-bit",
+      "manufacturer": "Microsoft",
+      "country_of_origin": "United States",
+      "production_years": { "start": 2001, "end": 2009 },
+      "hardware_data": {
+        "processor": "Custom Intel Pentium III @ 733 MHz",
+        "graphics_chip": "Nvidia NV2A",
+        "media": "DVD-ROM"
+      },
+      "units_sold_global": "24 Million",
+      "release_price_usd": 299,
+      "released_games_count": "~1,000",
+      "game_list_file": "games_list/xbox.json",
+      "notes": "Microsoft's entry into the console market. It was the first console with a built-in hard drive and popularized online console gaming with Xbox Live.",
+      "fun_facts": ["The original prototype was built from spare Dell laptop parts. The 'X' in Xbox comes from DirectX."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Xbox_(console)",
+      "image_tag": "images/xbox.png"
+    },
+    {
+      "name": "PlayStation Portable (PSP)",
+      "generation": "7th (Handheld)",
+      "bits": "32-bit",
+      "manufacturer": "Sony Computer Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2004, "end": 2014 },
+      "hardware_data": {
+        "processor": "MIPS R4000 @ 333 MHz",
+        "screen": "4.3-inch TFT LCD, 480x272 resolution",
+        "media": "Universal Media Disc (UMD)"
+      },
+      "units_sold_global": "82 Million",
+      "release_price_usd": 249,
+      "released_games_count": "~1,370",
+      "game_list_file": "games_list/psp.json",
+      "notes": "Sony's first handheld console, praised for its powerful graphics and multimedia capabilities.",
+      "fun_facts": ["UMD was a proprietary optical disc format that was also used to release movies and music."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_Portable",
+      "image_tag": "images/psp.png"
+    },
+    {
+      "name": "Nintendo DS",
+      "generation": "7th (Handheld)",
+      "bits": "32-bit (ARM9/ARM7)",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2004, "end": 2013 },
+      "hardware_data": {
+        "processor": "ARM946E-S @ 67 MHz & ARM7TDMI @ 33 MHz",
+        "screen": "Dual 3-inch TFT LCDs, 256x192 resolution (bottom is a touchscreen)",
+        "media": "Nintendo DS Game Card / GBA Cartridge"
+      },
+      "units_sold_global": "154.02 Million",
+      "release_price_usd": 149,
+      "released_games_count": "~2,000",
+      "notes": "The best-selling handheld console of all time. Its dual screens and touchscreen introduced novel gameplay mechanics.",
+      "fun_facts": ["'DS' stands for 'Dual Screen' and 'Developers' System', reflecting its innovative design."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Nintendo_DS",
+      "image_tag": "images/nintendo_ds.png"
+    },
+    {
+      "name": "Xbox 360",
+      "generation": "7th",
+      "bits": "64-bit",
+      "manufacturer": "Microsoft",
+      "country_of_origin": "United States",
+      "production_years": { "start": 2005, "end": 2016 },
+      "hardware_data": {
+        "processor": "Xenon (PowerPC) @ 3.2 GHz",
+        "graphics_chip": "ATI Xenos",
+        "media": "DVD-ROM, HD DVD (add-on)"
+      },
+      "units_sold_global": "84 Million",
+      "release_price_usd": 299,
+      "released_games_count": "~2,154",
+      "notes": "Greatly expanded Xbox Live, introducing a digital marketplace and multimedia features. Early models were infamous for the 'Red Ring of Death' hardware failure.",
+      "fun_facts": ["The 'blades' dashboard interface was iconic before being replaced by the 'New Xbox Experience'."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Xbox_360",
+      "image_tag": "images/xbox_360.png"
+    },
+    {
+      "name": "PlayStation 3",
+      "generation": "7th",
+      "bits": "64-bit",
+      "manufacturer": "Sony Computer Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2006, "end": 2017 },
+      "hardware_data": {
+        "processor": "Cell Broadband Engine @ 3.2 GHz",
+        "graphics_chip": "Nvidia RSX 'Reality Synthesizer'",
+        "media": "Blu-ray Disc"
+      },
+      "units_sold_global": "87.4 Million",
+      "release_price_usd": 499,
+      "released_games_count": "~2,500",
+      "notes": "Introduced the Blu-ray format to the masses. Its high launch price and complex architecture presented early challenges.",
+      "fun_facts": ["Early models included backward compatibility with PS2 games, a feature that was later removed to cut costs."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_3",
+      "image_tag": "images/ps3.png"
+    },
+    {
+      "name": "Wii",
+      "generation": "7th",
+      "bits": "32-bit/64-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2006, "end": 2013 },
+      "hardware_data": {
+        "processor": "IBM 'Broadway' PowerPC @ 729 MHz",
+        "graphics_chip": "ATI 'Hollywood'",
+        "media": "Wii Optical Disc"
+      },
+      "units_sold_global": "101.63 Million",
+      "release_price_usd": 249,
+      "released_games_count": "~1,600",
+      "notes": "A massive success due to its innovative motion controls (Wii Remote), which appealed to a broad, casual audience.",
+      "fun_facts": ["Wii Sports, the pack-in game in most regions, is one of the best-selling video games of all time."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Wii",
+      "image_tag": "images/wii.png"
+    },
+    {
+      "name": "PlayStation Vita",
+      "generation": "8th (Handheld)",
+      "bits": "32-bit",
+      "manufacturer": "Sony Computer Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2011, "end": 2019 },
+      "hardware_data": {
+        "processor": "Quad-core ARM Cortex-A9",
+        "screen": "5-inch OLED/LCD, 960x544 resolution",
+        "media": "PlayStation Vita card / Digital Download"
+      },
+      "units_sold_global": "10-15 Million (Estimate)",
+      "release_price_usd": 249,
+      "released_games_count": "~1,500",
+      "notes": "A powerful handheld with dual analog sticks, a front touchscreen, and a rear touchpad. It struggled to gain market traction despite a dedicated fanbase.",
+      "fun_facts": ["'Vita' is Latin for 'Life'. It featured 'Remote Play', allowing users to stream PS3 and PS4 games."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_Vita",
+      "image_tag": "images/ps_vita.png"
+    },
+    {
+      "name": "Wii U",
+      "generation": "8th",
+      "bits": "64-bit",
+      "manufacturer": "Nintendo",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2012, "end": 2017 },
+      "hardware_data": {
+        "processor": "IBM 'Espresso' PowerPC @ 1.24 GHz",
+        "graphics_chip": "AMD 'Latte'",
+        "media": "Wii U Optical Disc"
+      },
+      "units_sold_global": "13.56 Million",
+      "release_price_usd": 299,
+      "released_games_count": "~750",
+      "notes": "A commercial failure, often attributed to poor marketing and confusion over its main feature, the GamePad controller with a built-in screen.",
+      "fun_facts": ["Many of its most popular exclusive games, like Mario Kart 8 and Splatoon, were later ported to the much more successful Nintendo Switch."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Wii_U",
+      "image_tag": "images/wii_u.png"
+    },
+    {
+      "name": "PlayStation 4",
+      "generation": "8th",
+      "bits": "64-bit",
+      "manufacturer": "Sony Interactive Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2013, "end": "Active" },
+      "hardware_data": {
+        "processor": "Semi-custom 8-core AMD 'Jaguar' x86-64",
+        "main_ram": "8 GB GDDR5",
+        "media": "Blu-ray Disc"
+      },
+      "units_sold_global": "117.2 Million",
+      "release_price_usd": 399,
+      "released_games_count": "3,000+",
+      "notes": "A dominant console of its generation, praised for its focus on core gamers and a strong library of exclusive titles.",
+      "fun_facts": ["The 'Share' button on the DualShock 4 controller was a new feature that made capturing and sharing gameplay clips seamless."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_4",
+      "image_tag": "images/ps4.png"
+    },
+    {
+      "name": "Xbox One",
+      "generation": "8th",
+      "bits": "64-bit",
+      "manufacturer": "Microsoft",
+      "country_of_origin": "United States",
+      "production_years": { "start": 2013, "end": 2020 },
+      "hardware_data": {
+        "processor": "Semi-custom 8-core AMD 'Jaguar' x86-64",
+        "main_ram": "8 GB DDR3",
+        "media": "Blu-ray Disc"
+      },
+      "units_sold_global": "58 Million (Estimate)",
+      "release_price_usd": 499,
+      "released_games_count": "2,500+",
+      "notes": "Its initial reveal focused heavily on being an all-in-one media center, which was poorly received by gamers. Microsoft later course-corrected, focusing on games and services like Game Pass.",
+      "fun_facts": ["The console was originally bundled with the Kinect 2.0 sensor, which contributed to its higher launch price compared to the PS4."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Xbox_One",
+      "image_tag": "images/xbox_one.png"
+    },
+    {
+      "name": "PlayStation 5",
+      "generation": "9th",
+      "bits": "64-bit",
+      "manufacturer": "Sony Interactive Entertainment",
+      "country_of_origin": "Japan",
+      "production_years": { "start": 2020, "end": "Active" },
+      "hardware_data": {
+        "processor": "Custom 8-core AMD Zen 2 @ 3.5 GHz",
+        "main_ram": "16 GB GDDR6",
+        "media": "Ultra HD Blu-ray"
+      },
+      "units_sold_global": "50 Million+",
+      "release_price_usd": 499,
+      "released_games_count": "Ongoing",
+      "notes": "Known for its extremely fast SSD that virtually eliminates loading times, and the innovative DualSense controller with advanced haptic feedback.",
+      "fun_facts": ["Its large size is primarily due to the extensive cooling system required to manage the powerful hardware."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/PlayStation_5",
+      "image_tag": "images/ps5.png"
+    },
+    {
+      "name": "Xbox Series X/S",
+      "generation": "9th",
+      "bits": "64-bit",
+      "manufacturer": "Microsoft",
+      "country_of_origin": "United States",
+      "production_years": { "start": 2020, "end": "Active" },
+      "hardware_data": {
+        "processor": "Custom 8-core AMD Zen 2 @ 3.8 GHz (X) / 3.6 GHz (S)",
+        "main_ram": "16 GB GDDR6 (X) / 10 GB GDDR6 (S)",
+        "media": "Ultra HD Blu-ray (X only) / Digital"
+      },
+      "units_sold_global": "25 Million+ (Estimate)",
+      "release_price_usd": "499 (X) / 299 (S)",
+      "released_games_count": "Ongoing",
+      "notes": "Microsoft's two-tiered strategy offers a high-end model (Series X) and a more affordable, digital-only model (Series S). The ecosystem is heavily built around the Xbox Game Pass subscription service.",
+      "fun_facts": ["The 'Quick Resume' feature allows players to suspend multiple games at once and switch between them almost instantly."],
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S",
+      "image_tag": "images/xbox_series_x.png"
+    }
+]

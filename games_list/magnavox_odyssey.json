@@ -1,0 +1,17 @@
+{
+  "console": "Magnavox Odyssey",
+  "games": [
+    { "title": "Table Tennis" },
+    { "title": "Ski" },
+    { "title": "Simon Says" },
+    { "title": "Tennis" },
+    { "title": "Analogic" },
+    { "title": "Hockey" },
+    { "title": "Football" },
+    { "title": "Cat and Mouse" },
+    { "title": "Haunted House" },
+    { "title": "Submarine" },
+    { "title": "Roulette" },
+    { "title": "States" }
+  ]
+}
